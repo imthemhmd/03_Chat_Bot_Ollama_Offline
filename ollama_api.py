@@ -1,3 +1,6 @@
+# Welcome To Project Chat Bot Offline Ollama
+# In this file we call the ai model.
+
 import requests
 import json
 

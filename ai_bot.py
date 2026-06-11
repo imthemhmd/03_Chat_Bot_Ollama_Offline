@@ -1,3 +1,9 @@
+# Welcome To Project Chat Bot Offline Ollama
+# In this file, we will create a simple Telegram 
+# chatbot where we can talk to ollama herself in the chatbot.
+
+
+
 import telebot
 import token_bot
 import ollama_api
