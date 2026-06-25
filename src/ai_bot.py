@@ -3,13 +3,12 @@
 # chatbot where we can talk to ollama herself in the chatbot.
 
 
-
 import telebot
 import token_bot
 import ollama_api
 
 bot = telebot.TeleBot(token_bot.TOKEN)
-
+print("Start Bot")
 @bot.message_handler(commands=['start'])
 def start(message):
     text_start = "سلام\nبه بات arlo خوش اومدید."
